@@ -2,10 +2,11 @@
 <html lang="en-US">
 <head>
   <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.4.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/perlpie.css">
   <title>perlpie.com</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
   <div class="title">
@@ -18,8 +19,8 @@
     <code>perl -p -i -e <span>'s/foo/bar/gi'</span></code>
   </div>
   <div class="links">
-    <a href="http://web.archive.org/web/20130617110924/http://perlpie.com/">Web Archive copy</a> | 
-    <script src="scripts/mailto.js"></script> <noscript>Email address is 'perlpie AT MailForGer DOT com'</noscript> | <a href="http://technosophos.com/2009/05/21/perl-pie-if-you-only-learn-how-do-one-thing-perl-it.html">Inspired by</a>
+    <a href="https://web.archive.org/web/20130617110924/http://perlpie.com/">Web Archive copy</a> |
+    <script src="scripts/mailto.js"></script> <noscript>Email address is 'perlpie AT MailForGer DOT com'</noscript> | <a href="https://technosophos.com/2009/05/21/perl-pie-if-you-only-learn-how-do-one-thing-perl-it.html">Inspired by</a>
   </div>
   <div class="section-outter">
     <div class="section-title">
@@ -31,7 +32,7 @@
     <div class="section-notes">
       This will search all text files in the current directory for the word "SOME_NAME" and replace it with my name, "Ger". This regex ends with "/gi", in which the "i" means 'ignore case', so it will change any spelling of "SOME_NAME", have it be the
       upper or lower case spelling of it e.g. "Some_Name", "Some_NAME", "SoMe_NaME" and the like.<br>
-      Note also that you can just type in the full file name istead of "*.txt" and do the one single file.
+      Note also that you can just type in the full file name instead of "*.txt" and do the one single file.
     </div>
   </div>
   <div class="section-outter">
@@ -42,7 +43,7 @@
       <code>perl -p -i -e <span>'s/foo/bar' `find . -name "filename"`</span></code>
     </div>
     <div class="section-notes">
-      This is the same as above, only diffrence is it will change it only in files with the name of "filename" in the current and any subdirectories so if you have a structure like
+      This is the same as above, only difference is it will change it only in files with the name of "filename" in the current and any subdirectories so if you have a structure like
       <pre><code>./filename
 ./bkp/filename
 ./original/filename
@@ -54,7 +55,7 @@
       <p>Perl Pie : Make a backup with '-i.bkp' (or any extension you choose).</p>
     </div>
     <div class="code-embed">
-      <code>perl -p -i<em>.bkp</em> -e <span>'s/SOME_NAME/Ger/gi'</span> ./*.txt</code><br />
+      <code>perl -p -i<em>.bkp</em> -e <span>'s/SOME_NAME/Ger/gi'</span> ./*.txt</code><br>
       <code>perl -p -i<em>.bkp</em> -e <span>'s/foo/bar' `find . -name "filename"`</span></code>
     </div>
     <div class="section-notes">

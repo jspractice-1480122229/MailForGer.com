@@ -1,6 +1,6 @@
-var jhngjhvbh = 'MailForGer'
-var uoklnmmkn = '.com'
-var eaqsxwrfd = 'perlpie'
-var slakj = eaqsxwrfd + '@' + jhngjhvbh + uoklnmmkn
-var message = 'Contact ME, not the original author(s)'
-document.write('<a href=\'mailto:' + slakj + '\'>' + message + '</a>')
+const jhngjhvbh = 'MailForGer'
+const uoklnmmkn = '.com'
+const eaqsxwrfd = 'perlpie'
+const slakj = eaqsxwrfd + '@' + jhngjhvbh + uoklnmmkn
+const message = 'Contact ME, not the original author(s)'
+document.currentScript.insertAdjacentHTML('afterend', '<a href="mailto:' + slakj + '">' + message + '</a>')

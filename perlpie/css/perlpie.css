@@ -1,21 +1,18 @@
     body {
-      font-family: 'Courier New', Georgia, Verdana, Tahoma, Helvetica, Arial;
+      font-family: 'Courier New', monospace;
       font-size: 12px;
     }
 
-    br {
-      line-height: 150%;
-    }
     em {
-      color: #f00
+      color: #f00;
     }
-    a:visited {
-      color: #778899;
+    a:link {
+      color: #ffffff;
       text-decoration: none;
     }
 
-    a:link {
-      color: #ffffff;
+    a:visited {
+      color: #778899;
       text-decoration: none;
     }
 
@@ -36,7 +33,7 @@
     }
 
     .footer {
-      font-size: 9px
+      font-size: 9px;
     }
 
     div.title {
@@ -44,16 +41,16 @@
       font-weight: bold;
       text-align: center;
       padding: 10px;
-      margin: 0px;
+      margin: 0;
     }
-    
+
     div.subtitle {
       font-size: 10px;
       font-style: italic;
       font-weight: normal;
       text-align: center;
-      padding: 0px;
-      margin: 0px;
+      padding: 0;
+      margin: 0;
     }
     
     div.section-outter {
@@ -91,8 +88,4 @@
     
     div.code-embed span {
       color: #ed9d13;
-    }
-    
-    div.banner {
-      text-align: center;
     }
