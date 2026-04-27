@@ -1,10 +1,6 @@
 var rando = Math.round(Math.random());
-if (rando === 0) {
-  document.open();
-  document.writeln('  <link rel="stylesheet" type="text/css" href="css/site0.css">');
-  document.close();
-} else if (rando === 1) {
-  document.open();
-  document.writeln('  <link rel="stylesheet" type="text/css" href="css/site1.css">');
-  document.close();
-}
+var link = document.createElement('link');
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = 'css/site' + rando + '.css';
+document.head.appendChild(link);

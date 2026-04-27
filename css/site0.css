@@ -23,7 +23,7 @@ div {
   margin: 5px;
   text-align: text-justify;
 }
-footer.billboard {
+.billboard {
   background-image: url("http://orig14.deviantart.net/9db6/f/2013/249/7/c/pink_flower_png_by_hanabell1-d6l7hc0.png") center;
   background-repeat: no-repeat;
   background-size: contain;
