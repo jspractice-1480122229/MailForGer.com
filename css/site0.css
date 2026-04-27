@@ -3,6 +3,7 @@ body {
   background-color: #666;
   min-width: 320px;
   max-width: 960px;
+  margin: 0 auto;
   align-content: space-between;
   text-align: center;
   align-self: center
