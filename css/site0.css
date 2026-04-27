@@ -24,8 +24,9 @@ div {
   text-align: text-justify;
 }
 .billboard {
-  background-image: url("http://orig14.deviantart.net/9db6/f/2013/249/7/c/pink_flower_png_by_hanabell1-d6l7hc0.png") center;
+  background-image: url("../img/pink_flower_png_by_hanabell1-d6l7hc0.png");
   background-repeat: no-repeat;
   background-size: contain;
-	background-position: center;
+  background-position: center;
+  min-height: 300px;
 }

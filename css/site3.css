@@ -1,8 +1,8 @@
-/*The blue theme*/
+/*The orange theme*/
 body, p {
   font-family: "Andale Mono", "Consolas", monospace;
-  color: #c0c0c0;
-  background-color: #000040;
+  color: #f0d0a0;
+  background-color: #1a0800;
   min-width: 320px;
   max-width: 960px;
   text-align: center;
@@ -10,7 +10,6 @@ body, p {
 }
 p {
   font-size: 14px;
-  /*  white-space: pre-wrap; */
 }
 h1 {
   font-size: 1.3em;

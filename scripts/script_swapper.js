@@ -1,5 +1,5 @@
-// Randomly load site0.css or site1.css for A/B theme switching
-var rando = Math.round(Math.random());
+// Randomly load one of five themes (site0–site4)
+var rando = Math.floor(Math.random() * 5);
 var link = document.createElement('link');
 link.rel = 'stylesheet';
 link.type = 'text/css';

@@ -1,8 +1,8 @@
-/*The blue theme*/
+/*The green theme*/
 body, p {
   font-family: "Andale Mono", "Consolas", monospace;
-  color: #c0c0c0;
-  background-color: #000040;
+  color: #b0e8b0;
+  background-color: #001a00;
   min-width: 320px;
   max-width: 960px;
   text-align: center;
@@ -10,7 +10,6 @@ body, p {
 }
 p {
   font-size: 14px;
-  /*  white-space: pre-wrap; */
 }
 h1 {
   font-size: 1.3em;
