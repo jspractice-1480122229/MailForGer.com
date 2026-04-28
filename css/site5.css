@@ -1,0 +1,31 @@
+/*The royal purple theme*/
+body {
+  background-color: #2d0057;
+  min-width: 320px;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+div {
+  background-color: #4a0080;
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  line-height: 1.25;
+  padding: 5px;
+}
+#header {
+  text-align: center;
+}
+.content {
+  background-color: #5c009e;
+  border-radius: 1em;
+  margin: 5px;
+  text-align: justify;
+}
+.billboard {
+  background-image: url("../img/pink_flower_png_by_hanabell1-d6l7hc0.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-height: 300px;
+}
